@@ -27,13 +27,13 @@ section {
     padding-right: var(--container-padding-right);
 
     > div {
-      outline: solid 1px red;
       padding-block: 4rem;
 
       &.home {
         height: 100vh;
       }
       &.page {
+        outline: solid 1px red;
         min-height: 700px;
       }
     }
